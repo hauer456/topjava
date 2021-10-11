@@ -82,6 +82,9 @@
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT3pWNkMzWVVybnc">WAR. Веб-контейнер Tomcat. Сервлеты.</a>
 > - Обновил зависимость до Servlet 4.0. Установите себе [Tomcat 9.x](https://tomcat.apache.org/download-90.cgi)
+
+**Внимание: Tomcat 10 требует пакета `javarta.*`, устанавливайте 9-ю версию**
+
 > - Устанавливать Tomcat лучше простым скачиванием архива `xxx.zip` (например для Windows `apache-tomcat-9.0.35-windows-x64.zip`) и копированием из него в **каталог без пробелов и русских букв** (пример `С:\java\apache-tomcat-9.0.35`)
 
 ### ВНИМАНИЕ! далее патчи идут в ветку `master` после `1_1_HW0_streams` 
