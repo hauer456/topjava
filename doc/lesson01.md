@@ -140,6 +140,8 @@
 
 - [Set environment for Win/Mac/Unix](https://chlee.co/how-to-setup-environment-variables-for-windows-mac-and-linux/)
 - [Set environment for UNIX (advanced)](https://askubuntu.com/a/849954)
+  - [Определить, какой Login или Non-Login Shell](https://tecadmin.net/difference-between-login-and-non-login-shell)
+  - [Порядок запуска скриптов при старте](https://www.baeldung.com/linux/bashrc-vs-bash-profile-vs-profile)
 - Или простой вариант (не забудте добавить и в Run, и в Debug)
 
 ![image](https://user-images.githubusercontent.com/13649199/76862707-8af21180-686f-11ea-9f8c-2bb30ef4c3b2.png)
