@@ -5,6 +5,7 @@
 ### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правки в проекте
 
 #### Apply 3_0_fix.patch
+> README файл может отличаться от моего -  потренируйтесь с merge
 - Поправил `readme` и `User.toString()`
 - Если в JSP задать `requestScope`, IDEA находит атрибут в сервлете и понимает тип данных. В `mealForm.jsp` оставил `jsp:useBean`, с ним красивее. 
 
