@@ -42,15 +42,16 @@
 ## Занятие 4:
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU005ZzBNZmZnTVU">Методы улучшения качества кода</a>
 - Добавьте в своем `readme.md` сверху две строчки `Codacy Badge` и `Build Status`, по аналогии с моим [README.md](https://github.com/JavaWebinar/topjava/blob/master/README.md) ([Raw](https://raw.githubusercontent.com/JavaWebinar/topjava/master/README.md)). `Codacy Badge` берется с сайта `codacy -> Settings`
-На `travis-ci` у меня закончился бесплатный лимит, на следующей стажировке буду менять аккаунт (в планах переехать на GitLab)
-  - <a href="https://www.codacy.com">Codacy Check code</a> (проверка стиля и поиск багов в коде).
+- Плагины проверки качества кода теперь объединены в один **QAPlug**
+- <a href="https://www.codacy.com">Codacy Check code</a> (проверка стиля и поиск багов в коде).
     - добавил [Codacy configuration file](https://support.codacy.com/hc/en-us/articles/360005097654-Ignore-files-from-Codacy-analysis) для исключения из проверок содержимого `webapp` и `READ.me` (на нашем проекте он выдает на них кучу ошибок)
     - после правок паттернов можно сделать [повторный анализ](https://support.codacy.com/hc/en-us/articles/213840489-How-do-I-reanalyze-my-project-). С результатами тормозит  
-  - <a href="https://travis-ci.com/">Сборку и тесты Travis</a> (результат выполнения тестов проекта)
+- <a href="https://travis-ci.com/">Сборку и тесты Travis</a> (результат выполнения тестов проекта). На `travis-ci` у меня закончился бесплатный лимит, кроме того [сервис ввел ограничение на количество бесплатных сборок открытых проектов и трубеут ввода карточки при регистрации](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing)
     - [Что такое travis-ci](https://habr.com/post/140344/)
     - [Travis CI Tutorial](https://dzone.com/articles/travis-ci-tutorial-java-projects)
     - <a href="https://docs.travis-ci.com/user/languages/java/">Сборка Java проекта</a>
-  - Сервис по проверке `maven` зависимостей VersionEye [закрыли](https://blog.versioneye.com/2017/10/26/the-start-of-a-new-journey). Ищу замену...
+- Сервис по проверке `maven` зависимостей VersionEye [закрыли](https://blog.versioneye.com/2017/10/26/the-start-of-a-new-journey). Ищу замену...
+
 #### Сделайте `push` для отображения результатов текущего состояния проекта.
 
 #### **Apply 4_5_improve_code.patch**
