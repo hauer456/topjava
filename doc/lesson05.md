@@ -1,7 +1,7 @@
 # Стажировка <a href="https://github.com/JavaWebinar/topjava">Topjava</a>
 ## <a href="https://drive.google.com/drive/folders/0B9Ye2auQ_NsFfmctT3oyNW1qaVhDb2p0bGpyTFVlaUJ2VVpOdVgtWF9KTUFBMWFaR2xVYVE">Материалы занятия</a>
 
-## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Обзор JDK 9/11. Миграция Topjava с 1.8 на JDK 16](http://javaops.ru/view/resources/jdk8+)
+## ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. [Обзор JDK 9/11. Миграция Topjava с 1.8 на JDK 17](http://javaops.ru/view/resources/jdk8+)
 ### Внимание: для JDK 17 обновите IDEA на последнюю версию и Tomcat на 9.x
 > - Проект обновил до JDK 17. Для запуска Maven или Tomcat переопредели переменную окружения `JAVA_HOME` и переменную `path`, чтобы  `java -version` тоже было 17. Напомню, что IDEA это java процесс. Чтобы новые переменные окружения в ней увиделись, требуется ее перегрузить.
 
