@@ -132,7 +132,7 @@
 -  Ресурсы:
    -  <a href="https://github.com/spring-projects?query=spring-data">Github repositories</a>
    -  <a href="http://www.petrikainulainen.net/spring-data-jpa-tutorial">Spring Data JPA Tutorial</a>
-   -  <a href="https://blog.42.nl/articles/spring-data-jpa-with-querydsl-repositories-made-easy/">Spring Data JPA with QueryDSL</a>
+   -  [Spring Data JPA with QueryDSL](https://dontpanic.42.nl/2011/06/spring-data-jpa-with-querydsl.html)
    -  [SpEL support in Spring Data JPA @Query](https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions)
 
 ## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
