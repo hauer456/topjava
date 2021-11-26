@@ -595,6 +595,8 @@ SOAP UI - это один из инструментов для тестиров�
 
 [ResponseBody and UTF-8](http://web.archive.org/web/20190102203042/http://forum.spring.io/forum/spring-projects/web/74209-responsebody-and-utf-8)
 
+### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png)  Apply 7_17_fix.patch - fix css/readme 
+  
 ## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
 
 > Зачем у нас и UIController'ы, и RestController'ы? То есть в общем случае backend-разработчику недостаточно предоставить REST-api и RestController?
