@@ -210,6 +210,7 @@ JSON.
 
 #### Apply 9_07_datatable_via_ajax.patch
 
+**Внимание - патч обновил, `topjava.users.js`, стр.89: `data-userEnabled` -> `data-user-enabled`**
 > - Перешли на [параметры Datatables в формате 1.10](https://datatables.net/upgrade/1.10-convert)
 > - В `makeEditable()` больше нет манипуляций c DOM, которые требуются делать ПОСЛЕ отработки плагина `datatables`, поэтому нам не обязательно вызывать ее в коллбэке `initComplete`. Отображения строки меняем в параметре конфигурации `createdRow`
 
@@ -417,6 +418,10 @@ Security фильтров и для базовой аутентификации 
 - <a href="https://ru.wikipedia.org/wiki/HTTP_cookie">HTTP cookie</a></h3>
 - <a href="http://stackoverflow.com/questions/595872/under-what-conditions-is-a-jsessionid-created">Under what conditions is a JSESSIONID created?</a>
 - <a href="http://halyph.blogspot.ru/2014/08/how-to-disable-tomcat-session.html">Tomcat Session Serialization</a>
+
+#### Apply 9_13_fix.patch
+> - `AbstractBaseEntity.id()` уже реализовано в `HasId`
+> - В тестах сервисов базу восстанавливаем после теста (при старте приложения она популируется, если последний тест в сервисах ее меняет, тесты контроллеров могут не пройти)
 
 ### Дополнительно: ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 12. [Новое в Spring 5. Миграция проекта](https://javaops.ru/view/resources/spring5)
 
