@@ -273,7 +273,7 @@ Cоздадим собственную страницу логина по Bootst
 
 > Добавил функциональность logout
 
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-minimal">Минимальный form-login</a>
+- [Минимальный form-login](https://docs.spring.io/spring-security/reference/servlet/configuration/xml-namespace.html#ns-minimal)
 - <a href="https://docs.spring.io/spring-security/site/migrate/current/3-to-4/html5/migrate-3-to-4-xml.html#m3to4-xmlnamespace-form-login">Migrating &lt;form-login&gt;</a>
 
 #### ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Мои вопросы:
@@ -291,7 +291,7 @@ Cоздадим собственную страницу логина по Bootst
 > - Сделал i18n описания приложения
 > - При нажатии кнопок `Зайти как ...` сделал вход в приложение
 
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
+- [Собственный form-login](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html#servlet-authentication-form-custom)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторизации.</a>
 
@@ -335,7 +335,7 @@ Cоздадим собственную страницу логина по Bootst
 > - `GrantedAuthority` это "разрешение" или "право". Если оно дается на основе роли, в Spring Security принято использовать префикс `ROLE_`. При этом сама роль не должна иметь префикс.
 >    - [Role and GrantedAuthority](https://stackoverflow.com/a/19542316/548473)
 
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#userdetailsservice-implementations">UserDetailsService Implementations</a>
+- [UserDetailsService](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/user-details-service.html)
 - [serialVersionUID value](https://stackoverflow.com/a/605832/548473)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT2Qya2V4N0kzWWM">Принцип работы Spring Security. Проксирование.</a>
@@ -365,7 +365,7 @@ Cоздадим собственную страницу логина по Bootst
 - <a href="https://ru.wikibooks.org/wiki/Spring_Security/Технический_обзор_Spring_Security">Технический обзор Spring Security</a>
 - <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#aop-proxying">Типы проксирования</a>
 - <a href="http://samolisov.blogspot.ru/2010/04/proxy-java.html">Dynamic Proxy API</a>
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#filter-stack">Security фильтры</a>
+- [Security фильтры](https://docs.spring.io/spring-security/reference/servlet/configuration/xml-namespace.html#filter-stack)
 - [Основы работы с Spring Security от Eugene Suleimanov](https://www.youtube.com/watch?v=7uxROJ1nduk)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 10. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFU3hMR0o4eGNoUmc">Spring Security Test</a>
@@ -388,10 +388,10 @@ Cоздадим собственную страницу логина по Bootst
 > - Cделал "честную" аутентификацию для `RootControllerTest` (через `TestUtil#userAuth`)
 > - Cделал `mockAuthorize` для `SpringMain`, в который не попадают фильтры
 
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test">Spring Security Test</a></h3>
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#test-mockmvc">Интеграция со Spring MVC Test</a>
-- <a href="https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#testing-http-basic-authentication">HttpBasic авторизация</a>
-- <a href="http://habrahabr.ru/post/171911/">Тестирование контроллеров с помощью MockMvc (без spring-security-test)</a>
+- [Spring Security Testing](https://docs.spring.io/spring-security/reference/servlet/test/index.html)
+- [Setting Up MockMvc and Spring Security](https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/setup.html)
+- [HttpBasic авторизация](https://docs.spring.io/spring-security/reference/servlet/test/mockmvc/http-basic.html)
+- [Тестирование контроллеров в Spring Boot](https://javaops.ru/view/bootjava/lesson06#test)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 11. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFUzNFanF6MGZGNHc">Cookie. Session.</a>
 
